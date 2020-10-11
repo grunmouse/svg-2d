@@ -216,3 +216,5 @@ Vector2D.fromPoints = function(p1, p2) {
         p2.y - p1.y
     );
 };
+
+module.exports = Vector2D;

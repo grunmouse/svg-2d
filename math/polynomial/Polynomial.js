@@ -661,3 +661,5 @@ Polynomial.prototype.getQuarticRoots = function() {
 
     return results;
 };
+
+module.exports = Polynomial;

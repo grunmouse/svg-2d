@@ -416,3 +416,4 @@ Point2D.prototype.swap = function(that) {
     that.y = y;
 };
 
+module.exports = Point2D;

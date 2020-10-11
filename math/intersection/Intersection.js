@@ -6,6 +6,9 @@
 *
 *****/
 
+const Vector2D = require('../vector2d/Vector2D.js');
+const Polynomial = require('../polynomial/Polynomial.js');
+
 /*****
 *
 *   constructor
@@ -1665,3 +1668,4 @@ Intersection.bezout = function(e1, e2) {
     );
 };
 
+module.exports = Intersection;
